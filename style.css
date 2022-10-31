@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1440px;
+    height: 100%;
+    background-image: url(../clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    
+}
+
+.main .top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .container-top {
+    width: 50%;
+    padding: 8rem 3rem 6rem 3rem;
+}
+
+.main .top .container-top .image {
+    padding-bottom: 1rem;
+}
+
+.main .top .container-top .title h1 {
+    color: hsl(210, 10%, 33%);
+    padding: 1rem 0;
+}
+
+.main .top .container-top .description h5 {
+    color:hsl(201, 11%, 66%) ;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
+.main .top .container-top .btn {
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.main .top .container-top .btn .ios {
+    padding: 16px 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:hsl(171, 66%, 44%) ;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.main .top .container-top .btn .mac {
+    padding: 16px 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:hsl(233, 100%, 69%) ;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.main .top .container-top .top-last-title h2{
+    color: hsl(210, 10%, 33%);
+    padding: 1rem;
+}
+
+.main .top .container-top .top-last-description {
+    color:hsl(201, 11%, 66%) ;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+.main .content .container {
+    display: flex;
+    overflow: hidden;
+}
+
+.content .container .image {
+    margin-left: -3rem;
+    padding-right: 7rem;
+}
+
+.content .container .information {
+    width: 22% ;
+    padding-top: 4rem;
+}
+
+.content .container .information  h4 {
+    color:hsl(210, 10%, 33%) ;
+    line-height: 2rem;
+
+}
+
+.content .container .information p {
+    color:hsl(201, 11%, 66%) ;
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+}
+.main .content-2 {
+    padding-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content-2 .title-c2 {
+    width: 50%;
+    padding: 0 3rem 5rem 3rem;
+    text-align: center
+}
+
+.main .content-2 .title-c2 h2 {
+    color:hsl(210, 10%, 33%) ;
+    padding-bottom: 1.5rem;
+}
+
+.main .content-2 .title-c2 p {
+    font-size: 16px;
+    color:hsl(201, 11%, 66%) ;
+}
+
+.main .content-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content-last .header {
+    width: 50%;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.main .content-last .header h2 {
+    padding-bottom: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.main .content-last .header p {
+    font-size: 16px;
+    color:hsl(201, 11%, 66%) ;
+}
+
+.main .content-last .section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.main .content-last .section .tool {
+    width: 30%;
+}
+
+.main .content-last .section .tool img {
+    padding-bottom: 2rem;
+    height: 64px;
+}
+
+.main .content-last .section .tool h3 {
+    padding-bottom: 1rem;
+    color:hsl(210, 10%, 33%) ;
+}
+
+.main .content-last .section .tool p {
+    color:hsl(201, 11%, 66%) ;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.main .content-last .section-2 {
+    padding: 5rem 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .content-last .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    padding: 5rem;
+}
+
+.main .content-last .aside h2 {
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 1.5rem;
+}
+
+.main .content-last .aside p {
+    color:hsl(201, 11%, 66%) ;
+    padding-bottom: 2rem;
+    line-height: 1.5rem; ;
+}
+
+
+.main .top .container-top .btn {
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.main .content-last .aside .btn .ios {
+    padding: 16px 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:hsl(171, 66%, 44%) ;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.main .content-last .aside .btn .mac {
+    padding: 16px 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:hsl(233, 100%, 69%) ;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.main .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(205, 15%, 75%, 0.192);
+    margin-top: 5rem;
+    padding: 2rem 10rem;
+}
+
+.main .footer .left img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.main .footer .mid {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0 15rem;
+    justify-content: space-between;
+    color: hsl(210, 10%, 33%);
+}
+
+.main .footer .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .footer .right img {
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
